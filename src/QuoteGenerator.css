@@ -1,0 +1,41 @@
+.card {
+  overflow: hidden;
+  width: 35rem;
+}
+#text {
+  word-wrap: break-word;
+  text-align: center;
+}
+#author {
+  text-align: right;
+}
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: inline-block;
+}
+
+.buttons #tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 50px;
+  width: 42px;
+}
+.buttons #tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 50px;
+  width: 42px;
+}
+#new-quote {
+  float: right;
+  margin-top: 1rem;
+}
